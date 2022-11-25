@@ -1,0 +1,58 @@
+body{
+    font: normal 15px Arial;
+}
+
+.sessao_venda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sessao_venda h1{
+    font-size: 25px;
+}
+
+.sessao-pai-de-todos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.itens_section{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.itens-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.itens-header img{
+    width:200px;
+}
+
+.itens-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.itens-header h1{
+    font-size:20px;
+}
+
+.itens-footer h1{
+    font-size:15px;
+}
